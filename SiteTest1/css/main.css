@@ -1,0 +1,248 @@
+
+@font-face {
+	font-family: Scriptina;
+	src: url(../fonts/Scriptina.ttf);
+
+	font-family: Alegreya-Regular;
+	src: url(../fonts/Alegreya-Regular.otf);
+	
+
+}
+
+
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: url(../img/hider_fon.jpg) no-repeat center top / cover;
+	min-height: 900px;
+	height: 100vh;
+
+}
+
+.container {
+	width: 1260px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 0px;
+	float: left;
+	color: #fff;
+	font-family: 'Scriptina', sans-serif;
+	font-size: 14pt;
+	text-decoration: none;
+
+}
+
+nav {
+	float: right;
+	margin-top: 30px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 30px;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Alegreya-Regular', sans-serif;
+}
+.menu a .icon{
+	margin-left: 30px;
+}
+
+.titles__first {
+	font-size: 92px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+}
+
+h1 {
+	font-size: 24px;
+	letter-spacing: 0.1em;
+	line-height: 36px;
+	color: #fff;
+	padding-bottom: 40px;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.button {
+	background: #8c8a84;
+	color: #fff;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+}
+#art-of-cakes {
+			background: url(../img/2.jpg) no-repeat center top / cover;
+			
+			background-repeat: no-repeat; 
+			padding-top: 110px;
+
+}
+
+.left-part {
+	float: left;
+	
+}
+.left-part p {
+	padding-top: 35px;
+	color: #56534c;
+	line-height: 1.714;
+	text-align: center;
+
+}
+.section-header {
+	color: black;
+}
+.section-header h2{
+	font-size: 48px;
+	font-family: "Alegreya";
+	color: #56534c;
+	font-weight: bold;
+	line-height: 0.625;
+	text-align: center;
+}
+.section-header h4 {
+	padding-top: 10px;
+	font-family: "Alegreya";
+	color: #a47d5e;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 0.625;
+	letter-spacing: 0.1em;
+	text-align: center;
+
+
+}
+.right-part {
+	
+	float: right;
+}
+.row {
+	display: inline-block;
+}
+.chef-info {
+	padding-left: 60px;
+	padding-right: 60px;
+
+
+}
+.chef-info h3{
+	font-size: 24px;
+	font-family: "Alegreya";
+	color: #56534c;
+	line-height: 1.25;
+	text-align: center;
+	letter-spacing: 0.025em;
+
+
+}
+.chef-info .chef-cook-photo {
+
+	display: block;
+	margin: 0 auto;
+	width: 126px;
+	height: 126px;
+	background-image: url("../img/content/artofcakes-chef-cook-image.png");
+	font-family: 'alegreyaregular';
+	font-size: 24px;
+	line-height: 60px;
+	color: #56534c;
+
+}
+.chef-info .chef-cook-photo p{
+
+	margin-left: -300px;
+}
+
+.unique {
+	display: block;
+	width: 350px;
+	margin: 0 auto;
+	padding: 0 45px;
+	font-family: 'scriptinaregular';
+	font-size: 24px;
+	line-height: 30px;
+	color: #a47d5e;
+	text-align: center;
+	letter-spacing: 1px;
+
+}
+.tasty-pancakes {
+  
+
+background: url("../img/pancakes-bg.png") no-repeat center top / cover;
+	min-height: 900px;
+	
+}
+
+  .tasty-pancakes .food-widget {
+    background-image: url("../img/pancakes-pic.png");
+    background-repeat: no-repeat;
+    height: 512px;
+    width: 965px; }
+
+    .tasty-pancakes .food-widget .line {
+
+
+    } 
+    .tasty-pancakes .food-widget .description {
+      width: 400px;
+      margin-left: 475px;
+      margin-top: 165px; 
+  }
+      .tasty-pancakes .food-widget .description .section-header {
+        text-align: left;
+        margin-top: 110px;
+        padding-bottom: 50px; }
+
+
+      .tasty-pancakes .food-widget .description p {
+        color: #56534c;
+        padding-bottom: 100px; }
+      
+
+.breakfast {
+	background: url("../img/breakfast-bg.png") no-repeat center top / cover;
+	min-height: 900px;
+}
